@@ -1,3 +1,5 @@
 [user]
 	email = mscamargo@pm.me
 	name = mscamargo
+[alias]
+	s = status -s
