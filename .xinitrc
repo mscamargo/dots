@@ -14,9 +14,8 @@ xset -q | grep "Caps Lock:\s*on" && xdotool key Caps_Lock
 
 xrandr --dpi 96
 xrandr --output LVDS-1 --off
-xrandr --output HDMI-1 --primary --auto
+xrandr --output VGA-1 --primary --auto
 
 slstatus &
-
 exec dwm
 
